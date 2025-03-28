@@ -10,7 +10,7 @@ export default function About() {
           <div className="about-page min-h-[calc(100vh-57px)] container mx-auto px-4  pt-16 py-8">
          
             <header className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-gray-800 mb-4">About SecureVault</h1>
+              <h1 className="text-2xl   sm:text-4xl font-bold text-gray-800 mb-4">About SecureVault</h1>
               <p className="text-gray-600 text-lg">
                 Your Trusted Partner in Digital Security
               </p>
@@ -67,7 +67,7 @@ export default function About() {
             </section>
 
             <section className="cta-section text-center py-4">
-              <h2 className="text-3xl font-bold mb-6">Ready to Take Security Seriously?</h2>
+              <h2 className=" text-2xl  sm:text-3xl font-bold mb-6">Ready to Take Security Seriously?</h2>
               <Link to='/' ><button className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition">
                 Get Started for Free
               </button></Link>
