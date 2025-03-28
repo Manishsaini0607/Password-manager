@@ -1,11 +1,11 @@
-
+import contact from '../assets/contact-img.png'
 
 export default function Contact() {
   return ( <section className="max-w-screen-2xl mx-auto min-h-[calc(100vh-56px)] pb-4  md:px-12 pt-20">
     <h2 className="text-2xl md:text-4xl font-bold  text-green-700 w-max mx-auto ">Contact Us</h2>
 
 <div className="flex flex-col sm:flex-row items-center ">
-   <div className="w-[90%]"><img src="./src/assets/contact-img.png" alt="p image"  /></div>
+   <div className="w-[90%]"><img src={contact} alt="contact image"  /></div>
    
 <form  action="#" className=" w-[90%]   sm:px-0 mt-4">
 <div className="relative z-0 w-full mb-5 group">
