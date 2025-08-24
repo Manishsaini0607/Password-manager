@@ -11,9 +11,9 @@ export default function Navbar() {
  <ul> 
     <li className="flex gap-4 ">
 
-        <NavLink  to="/"    className={(a)=>a.isActive ? "text-green-700 underline  decoration-white " : " hover:scale-110"}>Home</NavLink>
-        <NavLink to="/about"  className={(a)=>a.isActive ? "text-green-700 underline decoration-white" : " hover:scale-110"}>About</NavLink>
-        <NavLink to="/contact"  className={(a)=>a.isActive ? "text-green-700 underline decoration-white " : " hover:scale-110"}>Contact</NavLink>
+        <NavLink  to="/"    className={(a)=>a.isActive ? "text-green-400 border-b-2 border-white" : " hover:scale-110"}>Home</NavLink>
+        <NavLink to="/about"  className={(a)=>a.isActive ? "text-green-400 border-b-2  border-white" : " hover:scale-110"}>About</NavLink>
+        <NavLink to="/contact"  className={(a)=>a.isActive ? "text-green-400 border-b-2 border-white" : " hover:scale-110"}>Contact</NavLink>
     </li>
  </ul>
 
